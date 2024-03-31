@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1920px;
+    width: 100%;
+
+}
+
+
+.dobavit{
+    text-align: center;
+
+}
+ul{
+   
+    font-size: 22px;
+    margin: 0px 10%;
+    display: -ms-block;
+    display: block;
+    width: 100%;
+   
+}
+li{
+    padding-top: 20px;
+    list-style-type: "✓";
+    padding-left: 10px;
+    width: 70%;
+    word-wrap: break-word;
+
+
+   
+
+}
+
+h1 {
+    font-size: 48px;
+    color: rgb(13, 141, 40);
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+label{
+    font-size: 20px;
+    margin: 0 10px;
+}
+#addTask{
+    border-radius: 5px;
+    padding: 20px 25px;
+    border: none;
+    font: inherit;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(13, 141, 40);
+    cursor: pointer;
+    font-family: "Roboto";
+   
+    
+   
+
+}
+input{
+    border-radius: 5px;
+    padding: 20px 25px;
+    width: 30%;
+   
+    
+}
+input::-webkit-input-placeholder{
+    font-size: 20px;
+  
+}
+input::-moz-placeholder{
+    font-size: 20px;
+  
+}
+input:-ms-input-placeholder{
+    font-size: 20px;
+  
+}
+input::-ms-input-placeholder{
+    font-size: 20px;
+  
+}
+input::placeholder{
+    font-size: 20px;
+  
+}
+.delete-button {
+     background-image: url("./🦆\ icon\ _x\ letter_.svg");
+    width: 25px;
+    height: 25px;
+    border-color: none;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    margin-right: 25%;
+
+  
+    
+    
+    
+}
+.list{
+    background-color: rgb(162, 252, 154);
+    margin: 30px 20%;
+    border-radius: 40px;
+    padding-bottom: 30px;
+
+   
+    
+}
